@@ -1,0 +1,64 @@
+2021-02-23 16:26:19.164 | INFO     | httprunner.runner:test_start:451 - Start to run testcase: testcase description, TestCase ID: 6afa2665-3b3c-47dc-b095-23f113870778
+2021-02-23 16:26:19.164 | INFO     | httprunner.runner:__run_step:292 - run step begin: /v3/quotentrd5 >>>>>>
+2021-02-23 16:26:19.256 | DEBUG    | httprunner.client:request:186 - client IP: 192.168.145.23, Port: 52966
+2021-02-23 16:26:19.257 | DEBUG    | httprunner.client:request:194 - server IP: 114.80.155.134, Port: 22016
+2021-02-23 16:26:19.257 | DEBUG    | httprunner.client:log_print:40 - 
+================== request details ==================
+method   : GET
+url      : http://114.80.155.134:22016/v3/quotentrd5
+headers  : {
+    "User-Agent": "python-requests/2.25.1",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "keep-alive",
+    "Param": "-1|-1",
+    "Symbol": "835033.bj",
+    "Token": "MitakeWeb",
+    "HRUN-Request-ID": "HRUN-6afa2665-3b3c-47dc-b095-23f113870778-779165"
+}
+cookies  : {}
+body     : None
+
+2021-02-23 16:26:19.258 | DEBUG    | httprunner.client:log_print:40 - 
+================== response details ==================
+status_code : 200
+headers  : {
+    "content-type": "text/plain; charset=UTF-8",
+    "connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "cache-control": "no-cache",
+    "content-encoding": "gzip",
+    "content-length": "531"
+}
+cookies  : {}
+encoding : UTF-8
+content_type : text/plain; charset=UTF-8
+body     : 05835033.bj精晶药业QWn~C<?JJYYbj1000$@J$GA$;o$Cs$Cs!#u7mL.N.$4JVmd!$@@!%JGpN0.85$=!$@J32q&\W)wRT8'(wW:2.2919{"ZRZT":"N","ZRLX":"M","CQCX":"N","st":"1000,1012,1005,1008","ZQJB":"T","JSFZD":"0","BLDW":"1","SLDW":"1","JGDW":"0.01","JCZQ":"     0","GPRQ":"20151229","ZQQXR":"0","DQR":"0","QTYW":"F   ","TPBZ":"F","ISIN":"","HBZL":"00","MGMZ":"100","FXSGB":"164420920","JSFL":"500","YHSL":"1000","GHFL":"0","MBXL":"1000000","ZXSBSL":"100","ZSSSL":"8","FXSYL":"0.00"}##e&Mb;D$p`vZ!,!,$8F,$ ... OMITTED 268 CHARACTORS ...
+
+2021-02-23 16:26:19.258 | INFO     | httprunner.client:request:218 - status_code: 200, response_time(ms): 91.09 ms, response_length: 531 bytes
+2021-02-23 16:26:19.258 | INFO     | httprunner.response:validate:246 - assert status_code equal 200(int)	==> pass
+2021-02-23 16:26:19.259 | INFO     | httprunner.response:validate:246 - assert headers."content-type" equal text/plain; charset=UTF-8(str)	==> pass
+2021-02-23 16:26:19.259 | ERROR    | httprunner.response:validate:263 - assert body equal bodyboyd(str)	==> fail
+check_item: body
+check_value: b'05\x02835033.bj\x02\xe7\xb2\xbe\xe6\x99\xb6\xe8\x8d\xaf\xe4\xb8\x9a\x02QWn~C<?\x02JJYY\x02bj\x021000\x02$@J\x02$GA\x02$;o\x02$Cs\x02$Cs\x02!#u\x027mL\x02.N\x02.$\x024JVmd\x02!\x02$@@\x02!%J\x02GpN\x020.85\x02$=!\x02$@J\x0232q\x02&\\W\x02)wRT8\x02\'(wW:\x022.2919\x02{"ZRZT":"N","ZRLX":"M","CQCX":"N","st":"1000,1012,1005,1008","ZQJB":"T","JSFZD":"0","BLDW":"1","SLDW":"1","JGDW":"0.01","JCZQ":"     0","GPRQ":"20151229","ZQQXR":"0","DQR":"0","QTYW":"F   ","TPBZ":"F","ISIN":"","HBZL":"00","MGMZ":"100","FXSGB":"164420920","JSFL":"500","YHSL":"1000","GHFL":"0","MBXL":"1000000","ZXSBSL":"100","ZSSSL":"8","FXSYL":"0.00"}\x02##e\x02&Mb;D\x02$p`vZ\x02!,!,$8F,$9S,$=!\x02!| ,!| ,Pz| ,iy| ,s1| \x02$@J,$AW,$Bf,!,!\x02#2=| ,#&x| ,EM| ,!| ,!| \x02(D\x020.277079\x02\x02\x02\x020.119414\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02-3100\x03\x04B\x029/Vj\x02.N\x02$@J\x02\x03B\x029/;5\x02.N\x02$@J\x02\x03B\x029#wB\x02#0\x02$@J\x02\x03S\x028S/v\x02$=\x02$=!\x02\x03B\x028MYL\x02#>w\x02$>0\x02\x03B\x028MK`\x02#>w\x02$?=\x02\x03B\x028I^\\\x02.N\x02$>0\x02\x03S\x028INo\x02#Uv\x02$;o\x02\x03B\x028Dv0\x02&W\x02$@J\x02\x03B\x028CJG\x02#>w\x02$?=\x02\x03\x04'(bytes)
+assert_method: equal
+expect_value: bodyboyd(str)
+2021-02-23 16:26:19.259 | ERROR    | httprunner.runner:log_req_resp_details:194 - 
+******************************** DETAILED REQUEST & RESPONSE ********************************
+====== request details ======
+url: http://114.80.155.134:22016/v3/quotentrd5
+method: GET
+headers: {'Param': '-1|-1', 'Symbol': '835033.bj', 'Token': 'MitakeWeb', 'User-Agent': 'python-requests/2.25.1', 'HRUN-Request-ID': 'HRUN-6afa2665-3b3c-47dc-b095-23f113870778-779165'}
+params: {}
+data: None
+cookies: {}
+timeout: 120
+allow_redirects: True
+verify: False
+json: None
+
+====== response details ======
+status_code: 200
+headers: {'content-type': 'text/plain; charset=UTF-8', 'connection': 'keep-alive', 'access-control-allow-origin': '*', 'cache-control': 'no-cache', 'content-encoding': 'gzip', 'content-length': '531'}
+body: '05\x02835033.bj\x02精晶药业\x02QWn~C<?\x02JJYY\x02bj\x021000\x02$@J\x02$GA\x02$;o\x02$Cs\x02$Cs\x02!#u\x027mL\x02.N\x02.$\x024JVmd\x02!\x02$@@\x02!%J\x02GpN\x020.85\x02$=!\x02$@J\x0232q\x02&\\W\x02)wRT8\x02\'(wW:\x022.2919\x02{"ZRZT":"N","ZRLX":"M","CQCX":"N","st":"1000,1012,1005,1008","ZQJB":"T","JSFZD":"0","BLDW":"1","SLDW":"1","JGDW":"0.01","JCZQ":"     0","GPRQ":"20151229","ZQQXR":"0","DQR":"0","QTYW":"F   ","TPBZ":"F","ISIN":"","HBZL":"00","MGMZ":"100","FXSGB":"164420920","JSFL":"500","YHSL":"1000","GHFL":"0","MBXL":"1000000","ZXSBSL":"100","ZSSSL":"8","FXSYL":"0.00"}\x02##e\x02&Mb;D\x02$p`vZ\x02!,!,$8F,$9S,$=!\x02!| ,!| ,Pz| ,iy| ,s1| \x02$@J,$AW,$Bf,!,!\x02#2=| ,#&x| ,EM| ,!| ,!| \x02(D\x020.277079\x02\x02\x02\x020.119414\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02\x02-3100\x03\x04B\x029/Vj\x02.N\x02$@J\x02\x03B\x029/;5\x02.N\x02$@J\x02\x03B\x029#wB\x02#0\x02$@J\x02\x03S\x028S/v\x02$=\x02$=!\x02\x03B\x028MYL\x02#>w\x02$>0\x02\x03B\x028MK`\x02#>w\x02$?=\x02\x03B\x028I^\\\x02.N\x02$>0\x02\x03S\x028INo\x02#Uv\x02$;o\x02\x03B\x028Dv0\x02&W\x02$@J\x02\x03B\x028CJG\x02#>w\x02$?=\x02\x03\x04'
+

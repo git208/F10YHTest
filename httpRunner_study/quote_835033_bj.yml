@@ -1,0 +1,23 @@
+config:
+    name: testcase description
+    variables: {}
+teststeps:
+-   name: /v3/quotentrd5
+    request:
+        headers:
+            Param: -1|-1
+            Symbol: 835033.bj
+            Token: MitakeWeb
+            User-Agent: python-requests/2.25.1
+        method: GET
+        url: http://114.80.155.134:22016/v3/quotentrd5
+    validate:
+    -   eq:
+        - status_code
+        - 200
+    -   eq:
+          - headers.content-type
+          - text/plain; charset=UTF-8
+    -   eq:
+        - body
+        - bodyboyd

@@ -1,0 +1,21 @@
+config:
+    name: 行情快照835033.bj
+    variables: {}
+teststeps:
+-   name: /v2/stocknewslist
+    request:
+        headers:
+            Param: -1,,100000
+            Src: d
+            Symbol: 600519.sh
+            Token: MitakeWeb
+            User-Agent: python-requests/2.25.1
+        method: GET
+        url: http://114.80.155.57:22013/v2/stocknewslist
+    validate:
+    -   eq:
+        - status_code
+        - 200
+    -   eq:
+        - headers.content-type
+        - text/plain; charset=UTF-8
