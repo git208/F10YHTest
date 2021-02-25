@@ -21,14 +21,14 @@ class contrastHistory(unittest.TestCase):
                 if key in dic_Interface.keys():
                     try:
                         self.assertIn(dic_base[key]['INIPUBDATE'], dic_Interface[key]['INIPUBDATE'])
-                        self.assertIn(dic_base[key]['ENTRYDATE'], dic_Interface[key]['ENTRYDATE'])
-                        self.assertEqual(dic_Interface[key]['ENTRYTIME'], dic_base[key]['ENTRYTIME'])
+                        # self.assertIn(dic_base[key]['ENTRYDATE'], dic_Interface[key]['ENTRYDATE'])
+                        # self.assertEqual(dic_Interface[key]['ENTRYTIME'], dic_base[key]['ENTRYTIME'])
                         self.assertEqual(dic_Interface[key]['REPORTTITLE'], dic_base[key]['REPORTTITLE'])
                         self.assertEqual(dic_Interface[key]['ISPDF'], dic_base[key]['ISPDF'])
                     except AssertionError as e:
                         print('断言异常：\n',dic_Interface[key]['ID'],'\n',e)
                 else:
-                    print('未找到的ID：', key)
+                    print('未找到的ID：', key,dic_base[key]['INIPUBDATE'])
 
     def test02_contrast_stockbulletinlist(self):
         # print(json.dumps(gongGaoFomat(), indent=2, ensure_ascii=False),
@@ -42,8 +42,8 @@ class contrastHistory(unittest.TestCase):
                 if key in dic_Interface.keys():
                     try:
                         self.assertEqual(dic_Interface[key]['PUBDATE'], dic_base[key]['PUBDATE'])
-                        self.assertEqual(dic_Interface[key]['ENTRYDATE'], dic_base[key]['ENTRYDATE'])
-                        self.assertEqual(dic_Interface[key]['ENTRYTIME'], dic_base[key]['ENTRYTIME'])
+                        # self.assertEqual(dic_Interface[key]['ENTRYDATE'], dic_base[key]['ENTRYDATE'])
+                        # self.assertEqual(dic_Interface[key]['ENTRYTIME'], dic_base[key]['ENTRYTIME'])
                         self.assertEqual(dic_Interface[key]['TITLE'], dic_base[key]['TITLE'])
                         self.assertEqual(dic_Interface[key]['DATASOUCE'], dic_base[key]['DATASOUCE'])
                         self.assertEqual(dic_Interface[key]['STOCKNAME'], dic_base[key]['STOCKNAME'])
@@ -65,8 +65,8 @@ class contrastHistory(unittest.TestCase):
                 if key in dic_Interface.keys():
                     try:
                         self.assertEqual(dic_Interface[key]['PUBDATE'], dic_base[key]['PUBDATE'])
-                        self.assertEqual(dic_Interface[key]['ENTRYDATE'], dic_base[key]['ENTRYDATE'])
-                        self.assertEqual(dic_Interface[key]['ENTRYTIME'], dic_base[key]['ENTRYTIME'])
+                        # self.assertEqual(dic_Interface[key]['ENTRYDATE'], dic_base[key]['ENTRYDATE'])
+                        # self.assertEqual(dic_Interface[key]['ENTRYTIME'], dic_base[key]['ENTRYTIME'])
                         self.assertEqual(dic_Interface[key]['REPORTTITLE'], dic_base[key]['REPORTTITLE'])
                         self.assertEqual(dic_Interface[key]['DATASOUCE'], dic_base[key]['DATASOUCE'])
                         self.assertEqual(dic_Interface[key]['STOCKNAME'], dic_base[key]['STOCKNAME'])
