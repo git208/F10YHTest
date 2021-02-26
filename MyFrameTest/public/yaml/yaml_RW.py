@@ -2,7 +2,7 @@ import json
 
 import yaml
 
-class YamlAnalysis():
+class YamlRW():
     def __init__(self,file):
         self.file = file
     def readYaml(self):

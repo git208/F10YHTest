@@ -1,12 +1,10 @@
-import yaml
 import requests
-import json
-from MyFrameTest.common.yaml_analysis import YamlAnalysis
+from MyFrameTest.public.yaml.yaml_RW import YamlRW
 
 
 class YamlToCase():
     def __init__(self,yaml_file):
-        jsonData = YamlAnalysis(yaml_file).readYaml()
+        jsonData = YamlRW(yaml_file).readYaml()
         self.testName = jsonData['config']['name']
         self.method = jsonData['teststeps']['request']['method']
         self.url = jsonData['teststeps']['request']['url']
@@ -31,4 +29,4 @@ class YamlToCase():
 
 
 if __name__ == '__main__':
-    print(YamlToCase('../yamls/stockbulletinlist.yaml').requests())
+    print(YamlToCase('../../source/yamls/stockbulletinlist.yaml').requests())
