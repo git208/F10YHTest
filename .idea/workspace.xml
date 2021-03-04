@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a3040b5-ce2d-4342-9c0e-ecda201edcd2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/F10YH_test/IU_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/F10YH_test/repeat_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyFrameTest/config/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyFrameTest/config/logConfig.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/F10YHTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/F10YHTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/F10YH_test/any_result/responses_stockbulletinlist.txt" beforeDir="false" afterPath="$PROJECT_DIR$/F10YH_test/any_result/responses_stockbulletinlist.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/F10YH_test/any_result/responses_stocknewslist.txt" beforeDir="false" afterPath="$PROJECT_DIR$/F10YH_test/any_result/responses_stocknewslist.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/F10YH_test/any_result/responses_stockreportlist.txt" beforeDir="false" afterPath="$PROJECT_DIR$/F10YH_test/any_result/responses_stockreportlist.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/F10YH_test/ui_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFrameTest/config/logConfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyFrameTest/config/logConfig.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFrameTest/public/excel/excel_to_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyFrameTest/public/excel/excel_to_case.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,14 +27,21 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/MyFrameTest/yamls" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -56,8 +59,8 @@
       <recent name="$PROJECT_DIR$/MyFrameTest/yamls" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in IU_test.py">
-    <configuration name="logConfig" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.excel_to_case">
+    <configuration name="excel_to_case" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="F10YHTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -65,8 +68,30 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MyFrameTest/config" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MyFrameTest/public/excel" />
       <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MyFrameTest/public/excel/excel_to_case.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="logConfig" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="F10YHTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\python_workspace\111\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MyFrameTest/config" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
@@ -123,21 +148,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for repeat_test.test_f10YH_KN" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="F10YHTest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/F10YH_test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;repeat_test.test_f10YH_KN&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Unittests in IU_test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="F10YHTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -170,19 +180,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.test_case" />
-      <item itemvalue="Python tests.Unittests in repeat_test.py" />
-      <item itemvalue="Python tests.Unittests for repeat_test.test_f10YH_KN" />
       <item itemvalue="Python.run" />
       <item itemvalue="Python.logConfig" />
+      <item itemvalue="Python tests.Unittests in repeat_test.py" />
       <item itemvalue="Python tests.Unittests in IU_test.py" />
+      <item itemvalue="Python.excel_to_case" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests in IU_test.py" />
+        <item itemvalue="Python.excel_to_case" />
         <item itemvalue="Python.logConfig" />
+        <item itemvalue="Python tests.Unittests in IU_test.py" />
         <item itemvalue="Python.run" />
         <item itemvalue="Python tests.Unittests in repeat_test.py" />
-        <item itemvalue="Python tests.Unittests for repeat_test.test_f10YH_KN" />
       </list>
     </recent_temporary>
   </component>
@@ -199,16 +209,21 @@
       <workItem from="1612404998197" duration="17385000" />
       <workItem from="1612441709605" duration="37512000" />
       <workItem from="1613955196044" duration="94681000" />
+      <workItem from="1614691576146" duration="17000" />
+      <workItem from="1614691616032" duration="522000" />
+      <workItem from="1614692150480" duration="3273000" />
+      <workItem from="1614776760696" duration="2847000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="203" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614236569877">
-      <screen x="0" y="23" width="1440" height="806" />
+    <state x="271" y="64" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614692130496">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state x="271" y="64" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1614692130496" />
     <state x="203" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.806@0.23.1440.806" timestamp="1614236569877" />
     <state x="136" y="159" width="1200" height="570" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1612683284180">
       <screen x="0" y="23" width="1440" height="806" />
@@ -222,25 +237,33 @@
       <screen x="0" y="23" width="1440" height="806" />
     </state>
     <state x="439" y="198" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.806@0.23.1440.806" timestamp="1614330433916" />
+    <state x="705" y="151" key="#logConfig" timestamp="1614691904399">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="705" y="151" key="#logConfig/0.0.1920.1080@0.0.1920.1080" timestamp="1614691904399" />
     <state x="135" y="139" width="1200" height="570" key="DiffContextDialog" timestamp="1614050599143">
       <screen x="0" y="23" width="1440" height="806" />
     </state>
     <state x="135" y="139" width="1200" height="570" key="DiffContextDialog/0.23.1440.806@0.23.1440.806" timestamp="1614050599143" />
-    <state width="1358" height="143" key="GridCell.Tab.0.bottom" timestamp="1614676582741">
-      <screen x="0" y="23" width="1440" height="806" />
+    <state width="1597" height="266" key="GridCell.Tab.0.bottom" timestamp="1614830951353">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state width="1597" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1614830951353" />
     <state width="1358" height="143" key="GridCell.Tab.0.bottom/0.23.1440.806@0.23.1440.806" timestamp="1614676582741" />
-    <state width="1358" height="143" key="GridCell.Tab.0.center" timestamp="1614676582740">
-      <screen x="0" y="23" width="1440" height="806" />
+    <state width="1597" height="266" key="GridCell.Tab.0.center" timestamp="1614830951352">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state width="1597" height="266" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1614830951352" />
     <state width="1358" height="143" key="GridCell.Tab.0.center/0.23.1440.806@0.23.1440.806" timestamp="1614676582740" />
-    <state width="1358" height="143" key="GridCell.Tab.0.left" timestamp="1614676582739">
-      <screen x="0" y="23" width="1440" height="806" />
+    <state width="1597" height="266" key="GridCell.Tab.0.left" timestamp="1614830951352">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state width="1597" height="266" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1614830951352" />
     <state width="1358" height="143" key="GridCell.Tab.0.left/0.23.1440.806@0.23.1440.806" timestamp="1614676582739" />
-    <state width="1358" height="143" key="GridCell.Tab.0.right" timestamp="1614676582740">
-      <screen x="0" y="23" width="1440" height="806" />
+    <state width="1597" height="266" key="GridCell.Tab.0.right" timestamp="1614830951353">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state width="1597" height="266" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1614830951353" />
     <state width="1358" height="143" key="GridCell.Tab.0.right/0.23.1440.806@0.23.1440.806" timestamp="1614676582740" />
     <state width="1358" height="242" key="GridCell.Tab.1.bottom" timestamp="1612683549785">
       <screen x="0" y="23" width="1440" height="806" />
@@ -258,9 +281,10 @@
       <screen x="0" y="23" width="1440" height="806" />
     </state>
     <state width="1358" height="242" key="GridCell.Tab.1.right/0.23.1440.806@0.23.1440.806" timestamp="1612683549785" />
-    <state x="248" y="47" key="SettingsEditor" timestamp="1614243853419">
-      <screen x="0" y="23" width="1440" height="806" />
+    <state x="331" y="32" key="SettingsEditor" timestamp="1614692276650">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state x="331" y="32" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1614692276650" />
     <state x="248" y="47" key="SettingsEditor/0.23.1440.806@0.23.1440.806" timestamp="1614243853419" />
     <state x="391" y="261" key="com.intellij.ide.util.TipDialog" timestamp="1613955202517">
       <screen x="0" y="23" width="1440" height="806" />
@@ -272,49 +296,50 @@
     <state x="404" y="153" width="670" height="676" key="search.everywhere.popup/0.23.1440.806@0.23.1440.806" timestamp="1614238095065" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/F10YHTest$Unittests_in_details_request_py.coverage" NAME="Unittests in details_request.py Coverage Results" MODIFIED="1612405734235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F10YH_test" />
-    <SUITE FILE_PATH="coverage/F10YHTest$yaml_analysis.coverage" NAME="yaml_analysis Coverage Results" MODIFIED="1614234542617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFrameTest/common" />
+    <SUITE FILE_PATH="coverage/F10YHTest$Unittests_in_list_pb_request_py.coverage" NAME="Unittests in list_pb_request.py Coverage Results" MODIFIED="1614136617500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F10YH_test" />
+    <SUITE FILE_PATH="coverage/F10YHTest$Unittests_for_test_case_TestCase_test_01.coverage" NAME="Unittests for test_case.TestCase.test_01 Coverage Results" MODIFIED="1614234854807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFrameTest/TestCases" />
+    <SUITE FILE_PATH="coverage/F10YHTest$stocknewslist_600519_sh_test.coverage" NAME="stocknewslist_600519_sh_test Coverage Results" MODIFIED="1614068138946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/httpRunner_study" />
+    <SUITE FILE_PATH="coverage/F10YHTest$quote_835033_bj_test.coverage" NAME="quote_835033_bj_test Coverage Results" MODIFIED="1614068997787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/httpRunner_study" />
+    <SUITE FILE_PATH="coverage/F10YHTest$Unittests_for_list_request_test_f10YH_KN_test01_stocknewslist.coverage" NAME="Unittests for list_request.test_f10YH_KN.test01_stocknewslist Coverage Results" MODIFIED="1612405131289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F10YH_test" />
+    <SUITE FILE_PATH="coverage/F10YHTest$Unittests_for_test_contrast_contrastHistory_test01_contrast_stockbulletinlist.coverage" NAME="Unittests for test_contrast.contrastHistory.test01_contrast_stockbulletinlist Coverage Results" MODIFIED="1612441241637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F10YH_test" />
+    <SUITE FILE_PATH="coverage/F10YHTest$Unittests_for_list_request_test_f10YH_KN.coverage" NAME="Unittests for list_request.test_f10YH_KN Coverage Results" MODIFIED="1613983198005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F10YH_test" />
+    <SUITE FILE_PATH="coverage/F10YHTest$run.coverage" NAME="run Coverage Results" MODIFIED="1614673740581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFrameTest/test_case" />
+    <SUITE FILE_PATH="coverage/F10YHTest$Unittests_for_list_pb_request_test_PB.coverage" NAME="Unittests for list_pb_request.test_PB Coverage Results" MODIFIED="1614135172926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F10YH_test" />
     <SUITE FILE_PATH="coverage/F10YHTest$Unittests_for_response_elapsed_test_f10YH_elapsed.coverage" NAME="Unittests for response_elapsed.test_f10YH_elapsed Coverage Results" MODIFIED="1612666686818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F10YH_test" />
     <SUITE FILE_PATH="coverage/F10YHTest$Unittests_for_test_pbfy_PBFYTest_test01_xinwen.coverage" NAME="Unittests for test_pbfy.PBFYTest.test01_xinwen Coverage Results" MODIFIED="1614134293266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F10YH_test" />
     <SUITE FILE_PATH="coverage/F10YHTest$Unittests_for_test_contrast_contrastHistory_test02_contrast_stockbulletinlist.coverage" NAME="Unittests for test_contrast.contrastHistory.test02_contrast_stockbulletinlist Coverage Results" MODIFIED="1612508612408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F10YH_test" />
-    <SUITE FILE_PATH="coverage/F10YHTest$Unittests_for_test_contrast_contrastHistory_test03_contrast_stockreportlist.coverage" NAME="Unittests for test_contrast.contrastHistory.test03_contrast_stockreportlist Coverage Results" MODIFIED="1612658019751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F10YH_test" />
-    <SUITE FILE_PATH="coverage/F10YHTest$Unittests_for_repeat_test_test_f10YH_KN.coverage" NAME="Unittests for repeat_test.test_f10YH_KN Coverage Results" MODIFIED="1614580134511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F10YH_test" />
-    <SUITE FILE_PATH="coverage/F10YHTest$Unittests_for_test_contrast_contrastHistory_test02_contrast_stocknewslist.coverage" NAME="Unittests for test_contrast.contrastHistory.test02_contrast_stocknewslist Coverage Results" MODIFIED="1612441862740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F10YH_test" />
-    <SUITE FILE_PATH="coverage/F10YHTest$Unittests_for_list_request_test_f10YH_KN_test01_stocknewslist.coverage" NAME="Unittests for list_request.test_f10YH_KN.test01_stocknewslist Coverage Results" MODIFIED="1612405131289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F10YH_test" />
     <SUITE FILE_PATH="coverage/F10YHTest$Unittests_for_repeat_test_test_f10YH_KN_test01_stocknewslist.coverage" NAME="Unittests for repeat_test.test_f10YH_KN.test01_stocknewslist Coverage Results" MODIFIED="1614579434080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F10YH_test" />
-    <SUITE FILE_PATH="coverage/F10YHTest$ui_test.coverage" NAME="ui_test Coverage Results" MODIFIED="1614126938793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F10YH_test" />
-    <SUITE FILE_PATH="coverage/F10YHTest$run.coverage" NAME="run Coverage Results" MODIFIED="1614673740581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFrameTest/test_case" />
-    <SUITE FILE_PATH="coverage/F10YHTest$contrast.coverage" NAME="contrast Coverage Results" MODIFIED="1612440762245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F10YH_test" />
-    <SUITE FILE_PATH="coverage/F10YHTest$quote_835033_bj_test.coverage" NAME="quote_835033_bj_test Coverage Results" MODIFIED="1614068997787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/httpRunner_study" />
     <SUITE FILE_PATH="coverage/F10YHTest$Unittests_for_list_pb_request_test_PB_test_04_dasd.coverage" NAME="Unittests for list_pb_request.test_PB.test_04_dasd Coverage Results" MODIFIED="1614137450909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F10YH_test" />
-    <SUITE FILE_PATH="coverage/F10YHTest$Unittests_in_test_page_down_py.coverage" NAME="Unittests in test_page_down.py Coverage Results" MODIFIED="1612686116260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F10YH_test" />
-    <SUITE FILE_PATH="coverage/F10YHTest$Unittests_in_ui_test_py.coverage" NAME="Unittests in ui_test.py Coverage Results" MODIFIED="1614578040636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F10YH_test" />
-    <SUITE FILE_PATH="coverage/F10YHTest$stocknewslist_600519_sh_test.coverage" NAME="stocknewslist_600519_sh_test Coverage Results" MODIFIED="1614068138946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/httpRunner_study" />
     <SUITE FILE_PATH="coverage/F10YHTest$test_case.coverage" NAME="test_case Coverage Results" MODIFIED="1614307023874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFrameTest/TestCases" />
-    <SUITE FILE_PATH="coverage/F10YHTest$Unittests_in_IU_test_py.coverage" NAME="Unittests in IU_test.py Coverage Results" MODIFIED="1614676582691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F10YH_test" />
-    <SUITE FILE_PATH="coverage/F10YHTest$Unittests_for_test_page_down_test_f10YH_elapsed.coverage" NAME="Unittests for test_page_down.test_f10YH_elapsed Coverage Results" MODIFIED="1612686019517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F10YH_test" />
-    <SUITE FILE_PATH="coverage/F10YHTest$Unittests_for_test_contrast_contrastHistory.coverage" NAME="Unittests for test_contrast.contrastHistory Coverage Results" MODIFIED="1613983797055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F10YH_test" />
-    <SUITE FILE_PATH="coverage/F10YHTest$Unittests_in_response_elapsed_py.coverage" NAME="Unittests in response_elapsed.py Coverage Results" MODIFIED="1614070167584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F10YH_test" />
-    <SUITE FILE_PATH="coverage/F10YHTest$Unittests_in_test_case_py.coverage" NAME="Unittests in test_case.py Coverage Results" MODIFIED="1614306813733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFrameTest/TestCases" />
-    <SUITE FILE_PATH="coverage/F10YHTest$Unittests_for_test_contrast_contrastHistory_test01_contrast_stocknewslist.coverage" NAME="Unittests for test_contrast.contrastHistory.test01_contrast_stocknewslist Coverage Results" MODIFIED="1612508626241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F10YH_test" />
-    <SUITE FILE_PATH="coverage/F10YHTest$Unittests_for_test_case_TestCase_test_01.coverage" NAME="Unittests for test_case.TestCase.test_01 Coverage Results" MODIFIED="1614234854807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFrameTest/TestCases" />
-    <SUITE FILE_PATH="coverage/F10YHTest$Unittests_for_test_contrast_contrastHistory_test01_contrast_stockbulletinlist.coverage" NAME="Unittests for test_contrast.contrastHistory.test01_contrast_stockbulletinlist Coverage Results" MODIFIED="1612441241637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F10YH_test" />
-    <SUITE FILE_PATH="coverage/F10YHTest$dasdasdasd.coverage" NAME="dasdasdasd Coverage Results" MODIFIED="1612685132593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F10YH_test" />
-    <SUITE FILE_PATH="coverage/F10YHTest$Unittests_for_list_pb_request_test_PB.coverage" NAME="Unittests for list_pb_request.test_PB Coverage Results" MODIFIED="1614135172926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F10YH_test" />
-    <SUITE FILE_PATH="coverage/F10YHTest$Unittests_for_details_request_test_f10YH_KN_test04_stocknews.coverage" NAME="Unittests for details_request.test_f10YH_KN.test04_stocknews Coverage Results" MODIFIED="1612405109372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F10YH_test" />
-    <SUITE FILE_PATH="coverage/F10YHTest$Unittests_for_details_request_test_f10YH_KN.coverage" NAME="Unittests for details_request.test_f10YH_KN Coverage Results" MODIFIED="1612440574961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F10YH_test" />
-    <SUITE FILE_PATH="coverage/F10YHTest$logConfig.coverage" NAME="logConfig Coverage Results" MODIFIED="1614675875219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFrameTest/config" />
-    <SUITE FILE_PATH="coverage/F10YHTest$Unittests_for_list_request_test_f10YH_KN.coverage" NAME="Unittests for list_request.test_f10YH_KN Coverage Results" MODIFIED="1613983198005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F10YH_test" />
-    <SUITE FILE_PATH="coverage/F10YHTest$Unittests_in_list_request_py.coverage" NAME="Unittests in list_request.py Coverage Results" MODIFIED="1614571148356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F10YH_test" />
-    <SUITE FILE_PATH="coverage/F10YHTest$Unittests_for_list_request_test_f10YH_KN_test02_stockbulletinlist.coverage" NAME="Unittests for list_request.test_f10YH_KN.test02_stockbulletinlist Coverage Results" MODIFIED="1612425797963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F10YH_test" />
+    <SUITE FILE_PATH="coverage/F10YHTest$yaml_analysis.coverage" NAME="yaml_analysis Coverage Results" MODIFIED="1614234542617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFrameTest/common" />
+    <SUITE FILE_PATH="coverage/F10YHTest$excel_to_case.coverage" NAME="excel_to_case Coverage Results" MODIFIED="1614778940588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFrameTest/public/excel" />
     <SUITE FILE_PATH="coverage/F10YHTest$dasda.coverage" NAME="main Coverage Results" MODIFIED="1614326766436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFrameTest" />
-    <SUITE FILE_PATH="coverage/F10YHTest$Unittests_in_repeat_test_py.coverage" NAME="Unittests in repeat_test.py Coverage Results" MODIFIED="1614583905489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F10YH_test" />
-    <SUITE FILE_PATH="coverage/F10YHTest$yaml_to_case.coverage" NAME="yaml_to_case Coverage Results" MODIFIED="1614245663342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFrameTest/common" />
+    <SUITE FILE_PATH="coverage/F10YHTest$Unittests_for_repeat_test_test_f10YH_KN.coverage" NAME="Unittests for repeat_test.test_f10YH_KN Coverage Results" MODIFIED="1614580134511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F10YH_test" />
+    <SUITE FILE_PATH="coverage/F10YHTest$Unittests_in_list_request_py.coverage" NAME="Unittests in list_request.py Coverage Results" MODIFIED="1614571148356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F10YH_test" />
+    <SUITE FILE_PATH="coverage/F10YHTest$Unittests_in_IU_test_py.coverage" NAME="Unittests in IU_test.py Coverage Results" MODIFIED="1614676582691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F10YH_test" />
+    <SUITE FILE_PATH="coverage/F10YHTest$Unittests_for_test_contrast_contrastHistory_test01_contrast_stocknewslist.coverage" NAME="Unittests for test_contrast.contrastHistory.test01_contrast_stocknewslist Coverage Results" MODIFIED="1612508626241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F10YH_test" />
+    <SUITE FILE_PATH="coverage/F10YHTest$Unittests_in_test_page_down_py.coverage" NAME="Unittests in test_page_down.py Coverage Results" MODIFIED="1612686116260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F10YH_test" />
+    <SUITE FILE_PATH="coverage/F10YHTest$Unittests_for_test_page_down_test_f10YH_elapsed.coverage" NAME="Unittests for test_page_down.test_f10YH_elapsed Coverage Results" MODIFIED="1612686019517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F10YH_test" />
+    <SUITE FILE_PATH="coverage/F10YHTest$Unittests_for_details_request_test_f10YH_KN_test04_stocknews.coverage" NAME="Unittests for details_request.test_f10YH_KN.test04_stocknews Coverage Results" MODIFIED="1612405109372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F10YH_test" />
+    <SUITE FILE_PATH="coverage/F10YHTest$logConfig.coverage" NAME="logConfig Coverage Results" MODIFIED="1614693043319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFrameTest/config" />
+    <SUITE FILE_PATH="coverage/F10YHTest$contrast.coverage" NAME="contrast Coverage Results" MODIFIED="1612440762245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F10YH_test" />
     <SUITE FILE_PATH="coverage/F10YHTest$Unittests_in_test_contrast_py.coverage" NAME="Unittests in test_contrast.py Coverage Results" MODIFIED="1614150479007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F10YH_test" />
-    <SUITE FILE_PATH="coverage/F10YHTest$Unittests_in_test_pbfy_py.coverage" NAME="Unittests in test_pbfy.py Coverage Results" MODIFIED="1614135003119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F10YH_test" />
-    <SUITE FILE_PATH="coverage/F10YHTest$file_format.coverage" NAME="file_format Coverage Results" MODIFIED="1612508565471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F10YH_test" />
     <SUITE FILE_PATH="coverage/F10YHTest$Unittests_for_list_pb_request_test_f10YH_KN_test01_stocknewslist.coverage" NAME="Unittests for list_pb_request.test_f10YH_KN.test01_stocknewslist Coverage Results" MODIFIED="1613961829675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F10YH_test" />
+    <SUITE FILE_PATH="coverage/F10YHTest$yaml_to_case.coverage" NAME="yaml_to_case Coverage Results" MODIFIED="1614245663342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFrameTest/common" />
+    <SUITE FILE_PATH="coverage/F10YHTest$Unittests_in_test_pbfy_py.coverage" NAME="Unittests in test_pbfy.py Coverage Results" MODIFIED="1614135003119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F10YH_test" />
     <SUITE FILE_PATH="coverage/F10YHTest$Unittests_for_response_elapsed_test_f10YH_KN.coverage" NAME="Unittests for response_elapsed.test_f10YH_KN Coverage Results" MODIFIED="1612664734189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F10YH_test" />
-    <SUITE FILE_PATH="coverage/F10YHTest$Unittests_in_list_pb_request_py.coverage" NAME="Unittests in list_pb_request.py Coverage Results" MODIFIED="1614136617500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F10YH_test" />
+    <SUITE FILE_PATH="coverage/F10YHTest$Unittests_in_details_request_py.coverage" NAME="Unittests in details_request.py Coverage Results" MODIFIED="1612405734235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F10YH_test" />
+    <SUITE FILE_PATH="coverage/F10YHTest$ui_test.coverage" NAME="ui_test Coverage Results" MODIFIED="1614126938793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F10YH_test" />
+    <SUITE FILE_PATH="coverage/F10YHTest$Unittests_for_test_contrast_contrastHistory.coverage" NAME="Unittests for test_contrast.contrastHistory Coverage Results" MODIFIED="1613983797055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F10YH_test" />
+    <SUITE FILE_PATH="coverage/F10YHTest$dasdasdasd.coverage" NAME="dasdasdasd Coverage Results" MODIFIED="1612685132593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F10YH_test" />
+    <SUITE FILE_PATH="coverage/F10YHTest$Unittests_for_list_request_test_f10YH_KN_test02_stockbulletinlist.coverage" NAME="Unittests for list_request.test_f10YH_KN.test02_stockbulletinlist Coverage Results" MODIFIED="1612425797963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F10YH_test" />
+    <SUITE FILE_PATH="coverage/F10YHTest$Unittests_in_repeat_test_py.coverage" NAME="Unittests in repeat_test.py Coverage Results" MODIFIED="1614583905489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F10YH_test" />
+    <SUITE FILE_PATH="coverage/F10YHTest$Unittests_in_response_elapsed_py.coverage" NAME="Unittests in response_elapsed.py Coverage Results" MODIFIED="1614070167584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F10YH_test" />
+    <SUITE FILE_PATH="coverage/F10YHTest$file_format.coverage" NAME="file_format Coverage Results" MODIFIED="1612508565471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F10YH_test" />
+    <SUITE FILE_PATH="coverage/F10YHTest$Unittests_for_test_contrast_contrastHistory_test03_contrast_stockreportlist.coverage" NAME="Unittests for test_contrast.contrastHistory.test03_contrast_stockreportlist Coverage Results" MODIFIED="1612658019751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F10YH_test" />
+    <SUITE FILE_PATH="coverage/F10YHTest$Unittests_for_details_request_test_f10YH_KN.coverage" NAME="Unittests for details_request.test_f10YH_KN Coverage Results" MODIFIED="1612440574961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F10YH_test" />
+    <SUITE FILE_PATH="coverage/F10YHTest$Unittests_for_test_contrast_contrastHistory_test02_contrast_stocknewslist.coverage" NAME="Unittests for test_contrast.contrastHistory.test02_contrast_stocknewslist Coverage Results" MODIFIED="1612441862740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F10YH_test" />
+    <SUITE FILE_PATH="coverage/F10YHTest$Unittests_in_ui_test_py.coverage" NAME="Unittests in ui_test.py Coverage Results" MODIFIED="1614578040636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F10YH_test" />
+    <SUITE FILE_PATH="coverage/F10YHTest$Unittests_in_test_case_py.coverage" NAME="Unittests in test_case.py Coverage Results" MODIFIED="1614306813733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFrameTest/TestCases" />
   </component>
 </project>
