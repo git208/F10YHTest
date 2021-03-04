@@ -2,6 +2,7 @@ config:
     name: 个股公告接口
 teststeps:
     request:
+        type: text
         url: http://114.80.155.47:22013/v2/stockbulletinlist
         method: GET
         headers:
@@ -11,6 +12,9 @@ teststeps:
             src: d
         params:
         body:
+            fsdf: dsfd5
+            fsdgfdg: 552sd
+            fsdff: 656
 
     validate:
     -   eq:

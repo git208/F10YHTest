@@ -1,0 +1,30 @@
+config:
+    name: testcase description
+    variables: {}
+teststeps:
+-   name: /post
+    request:
+        headers:
+            Content-Type: application/json
+            Postman-Token: e00b7771-287e-4718-bf42-6f9412d0cc96
+            User-Agent: PostmanRuntime/7.26.8
+        json:
+            dasdasdasdasdasd: dafafadf
+        method: POST
+        url: http://httpbin.org/post
+    validate:
+    -   eq:
+        - status_code
+        - 200
+    -   eq:
+        - headers.Content-Type
+        - application/json
+    -   eq:
+        - content.data
+        - '{"dasdasdasdasdasd":"dafafadf"}'
+    -   eq:
+        - content.origin
+        - 153.34.203.251
+    -   eq:
+        - content.url
+        - http://httpbin.org/post

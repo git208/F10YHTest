@@ -2,7 +2,7 @@ import logging
 
 class LogCustom():
 
-    def __init__(self,level = logging.ERROR):
+    def __init__(self,level = logging.DEBUG):
         self.lg = logging.getLogger('myLog')
         self.lg.level = level
     def logger(self):

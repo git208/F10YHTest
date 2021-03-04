@@ -1,0 +1,33 @@
+config:
+    name: testcase description
+    variables: {}
+teststeps:
+-   name: /post
+    request:
+        data:
+            '233': '5455'
+        headers:
+            Content-Type: application/x-www-form-urlencoded
+            Postman-Token: 765a5287-367f-474d-9e1e-fa42991a8133
+            User-Agent: PostmanRuntime/7.26.8
+        method: POST
+        url: http://httpbin.org/post
+    validate:
+    -   eq:
+        - status_code
+        - 200
+    -   eq:
+        - headers.Content-Type
+        - application/json
+    -   eq:
+        - content.data
+        - ''
+    -   eq:
+        - content.json
+        - null
+    -   eq:
+        - content.origin
+        - 153.34.203.251
+    -   eq:
+        - content.url
+        - http://httpbin.org/post

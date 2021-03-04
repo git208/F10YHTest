@@ -1,5 +1,8 @@
 import openpyxl
+import json
+import time
 
+import requests
 class HandleExcel:
 
     def __init__(self, filename, sheetname=None):
@@ -25,6 +28,23 @@ class HandleExcel:
 
 
 if __name__ == '__main__':
-    das = HandleExcel('../../source/excels/接口.xlsx')
+    # das = HandleExcel('../../source/excels/接口.xlsx')
+    #
+    # print(das.get_excel())
 
-    print(das.get_excel())
+
+    url = 'http://httpbin.org/post'
+    body = {
+        "djsji": '23',
+        'dfdfgfg': 'dswoo2',
+        'fjiw4d4s': 'dji33',
+        'fjisj': 'dsdj'
+    }
+
+
+
+
+
+    print(json.dumps(response.json(), ensure_ascii=False, indent=2))
+    # print(form_data_format_body(body))
+    # print(form_data_format_hader())
