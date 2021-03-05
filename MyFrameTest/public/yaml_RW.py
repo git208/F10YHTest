@@ -5,9 +5,11 @@ import yaml
 class YamlRW():
     def __init__(self,file):
         self.file = file
+
     def readYaml(self):
         with open(self.file,mode='r',encoding='utf-8') as a:
             return yaml.load(a.read(),Loader=yaml.FullLoader)
+
     def wightYaml(self,data):
         with open(self.file,mode='w',encoding='utf-8') as a:
             yaml.dump(data,stream=a,allow_unicode=True)

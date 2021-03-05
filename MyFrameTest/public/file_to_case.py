@@ -1,18 +1,25 @@
 import requests
-from MyFrameTest.public.yaml.parse_yaml import ParseYaml
+from MyFrameTest.public.parse_yaml import ParseYaml
 from MyFrameTest.public.request_common import form_data_format_body,form_data_format_header
-from MyFrameTest.config.logConfig import LogCustom,logging
+from MyFrameTest.config.logConfig import LogCustom
 
-class YamlToCase():
-    def __init__(self,yaml_file):
-        self.handle = ParseYaml(yaml_file)
-        self.testName = self.handle.get_testName()
-        self.url = self.handle.get_url()
-        self.method = self.handle.get_method().lower() if self.handle.get_method() != None else None
-        self.type = self.handle.get_type().lower() if self.handle.get_type() != None else None
-        self.headers = self.handle.get_headers()
-        self.params = self.handle.get_params()
-        self.body = self.handle.get_body()
+
+class FileToCase():
+
+    def __init__(self,file,file_type='yaml'):
+        if file_type.lower() == 'yaml':
+            self.handle = ParseYaml(file)
+            self.testName = self.handle.get_testName()
+            self.url = self.handle.get_url()
+            self.method = self.handle.get_method().lower() if self.handle.get_method() != None else None
+            self.type = self.handle.get_type().lower() if self.handle.get_type() != None else None
+            self.headers = self.handle.get_headers()
+            self.params = self.handle.get_params()
+            self.body = self.handle.get_body()
+        elif file_type.lower() == 'excel':
+            pass
+        else:
+            LogCustom().logger().info('文件类型须为yaml、excel类型')
 
     def requests(self):
         if self.method == 'get':
@@ -77,4 +84,4 @@ class YamlToCase():
 
 
 if __name__ == '__main__':
-    print(YamlToCase('../../source/yamls/stockbulletinlist.yaml').requests())
+    print(FileToCase('../source/yamls/stockbulletinlist.yaml').requests())

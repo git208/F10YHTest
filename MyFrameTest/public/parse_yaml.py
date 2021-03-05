@@ -1,4 +1,4 @@
-from MyFrameTest.public.yaml.yaml_RW import YamlRW
+from MyFrameTest.public.yaml_RW import YamlRW
 
 class ParseYaml():
     def __init__(self, yaml_file):
@@ -14,7 +14,13 @@ class ParseYaml():
             return None
 
     def get_testName(self):
-        return self.data_process('name')
+        if 'name' in self.data['config'].keys():
+            if self.data['config']['name'] == "":
+                return None
+            else:
+                return self.data['config']['name']
+        else:
+            return None
 
     def get_url(self):
         return self.data_process('url')
@@ -36,5 +42,5 @@ class ParseYaml():
 
 
 if __name__ == '__main__':
-    sad = ParseYaml('../../source/yamls/stockbulletinlist.yaml').get_body()
+    sad = ParseYaml('../source/yamls/stockbulletinlist.yaml').get_body()
     print(sad)

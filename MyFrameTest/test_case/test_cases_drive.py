@@ -5,7 +5,7 @@ import unittest
 import HtmlTestRunner
 from ddt import ddt, file_data, unpack
 
-from MyFrameTest.public.yaml.yaml_to_case import YamlToCase
+from MyFrameTest.public.file_to_case import YamlToCase
 
 
 @ddt
@@ -26,8 +26,6 @@ class TestCase(unittest.TestCase):
         pass
 
 if __name__ == '__main__':
-
-
 
     print(unittest.TestLoader().getTestCaseNames(TestCase))
     suit = unittest.TestSuite()
