@@ -8,7 +8,7 @@ class HandleExcel:
     def __init__(self, filename, sheetname=None, caseNumber=0):
         self.filename = filename
         self.sheetname = sheetname
-        self.data = self.get_excel()[caseNumber]
+        self.data = self.get_excel()[caseNumber-1]
 
     def get_excel(self):
         """
@@ -28,22 +28,16 @@ class HandleExcel:
         return one_list
 
     def data_process(self, key):
-        if key in self.data['teststeps']['request'].keys():
-            if self.data['teststeps']['request'][key] == "":
+        if key in self.data.keys():
+            if self.data[key] == "":
                 return None
             else:
-                return self.data['teststeps']['request'][key]
+                return self.data[key]
         else:
             return None
 
     def get_testName(self):
-        if 'name' in self.data['config'].keys():
-            if self.data['config']['name'] == "":
-                return None
-            else:
-                return self.data['config']['name']
-        else:
-            return None
+        return self.data_process('title')
 
     def get_url(self):
         return self.data_process('url')
@@ -66,7 +60,7 @@ class HandleExcel:
 
 if __name__ == '__main__':
     # pass
-    das = HandleExcel('../source/excels/接口.xlsx')
+    das = HandleExcel('../source/excels/接口.xlsx',caseNumber=1)
 
-    print(das.get_excel())
+    print(das.get_headers())
 

@@ -5,7 +5,7 @@ import unittest
 import HtmlTestRunner
 from ddt import ddt, file_data, unpack
 
-from MyFrameTest.public.file_to_case import YamlToCase
+from MyFrameTest.public.file_to_case import FileToCase
 
 
 @ddt
@@ -15,8 +15,8 @@ class TestCase(unittest.TestCase):
 
     @file_data('../source/testCaseName.json')
     @unpack
-    def test_01(self,yaml_file):
-        case = YamlToCase(f'../source/yamls/{yaml_file}')
+    def test_01(self,yaml_file,):
+        case = FileToCase(file=f'../source/yamls/{yaml_file}',file_type='yaml')
         print(case.testName,'</p><p>')
         response = case.requests()
         print(json.dumps(response.json(),ensure_ascii=False,indent=2))
