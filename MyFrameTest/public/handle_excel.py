@@ -5,17 +5,17 @@ import time
 import requests
 class HandleExcel:
 
-    def __init__(self, filename, sheetname=None, caseNumber=0):
-        self.filename = filename
-        self.sheetname = sheetname
-        self.data = self.get_excel()[caseNumber-1]
+    def __init__(self, file, sheet_name=None, case_number=0):
+        self.filepath = file
+        self.sheetname = sheet_name
+        self.data = self.get_excel()[case_number-1]
 
     def get_excel(self):
         """
         获取excel中的用例
         :return:
         """
-        wb = openpyxl.load_workbook(self.filename)
+        wb = openpyxl.load_workbook(self.filepath)
         if self.sheetname is None:
             ws = wb.active
         else:

@@ -1,4 +1,8 @@
+import json
+
 import requests
+
+from MyFrameTest.public.handle_excel import HandleExcel
 from MyFrameTest.public.parse_yaml import ParseYaml
 from MyFrameTest.public.request_common import form_data_format_body,form_data_format_header
 from MyFrameTest.config.logConfig import LogCustom
@@ -6,7 +10,13 @@ from MyFrameTest.config.logConfig import LogCustom
 
 class FileToCase():
 
-    def __init__(self,file,file_type='yaml'):
+    def __init__(self,file,file_type='yaml',**kwargs):
+        """
+            :param file: 用例所在的路径
+            :param file_type: 用例所属文件类型，可以是yaml,excel
+            :param sheet_name: 用例所在的sheet页
+            :param case_number: 用例序号
+        """
         if file_type.lower() == 'yaml':
             self.handle = ParseYaml(file)
             self.testName = self.handle.get_testName()
@@ -17,7 +27,14 @@ class FileToCase():
             self.params = self.handle.get_params()
             self.body = self.handle.get_body()
         elif file_type.lower() == 'excel':
-            pass
+            self.handle = HandleExcel(file,**kwargs)
+            self.testName = self.handle.get_testName()
+            self.url = self.handle.get_url()
+            self.method = self.handle.get_method().lower() if self.handle.get_method() != None else None
+            self.type = self.handle.get_type().lower() if self.handle.get_type() != None else None
+            self.headers = json.loads(self.handle.get_headers())
+            self.params = self.handle.get_params()
+            self.body = self.handle.get_body()
         else:
             LogCustom().logger().info('文件类型须为yaml、excel类型')
 
@@ -84,4 +101,11 @@ class FileToCase():
 
 
 if __name__ == '__main__':
-    print(FileToCase('../source/yamls/stockbulletinlist.yaml').requests())
+    def kkkk(aaa,bbb,ccc):
+        print(aaa)
+        print(bbb)
+        print(ccc)
+    def jiji(**dsdds):
+        kkkk(**dsdds)
+
+    jiji(aaa='dasd',bbb='fdsss',ccc="dwff")
