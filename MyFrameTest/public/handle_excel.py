@@ -49,18 +49,25 @@ class HandleExcel:
         return self.data_process('type')
 
     def get_headers(self):
-        return self.data_process('headers')
+        _ = self.data_process('headers')
+        return json.loads(_) if _ != None else None
 
     def get_params(self):
-        return self.data_process('params')
+        _ = self.data_process('params')
+        return json.loads(_) if _ != None else None
 
     def get_body(self):
-        return self.data_process('body')
+        _ = self.get_type().lower()
+        __ = self.data_process('body')
+        if _ == 'form-data' or _ == 'x-www-form-urlencoded' or _ == 'json':
+            return json.loads(__) if _ != None else None
+        else:
+            return __
 
 
 if __name__ == '__main__':
     # pass
-    das = HandleExcel('../source/excels/接口.xlsx',caseNumber=1)
+    das = HandleExcel('../source/excels/接口.xlsx',case_number=7)
 
-    print(das.get_headers())
+    print(das.get_body())
 

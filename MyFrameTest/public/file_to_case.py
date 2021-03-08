@@ -32,7 +32,7 @@ class FileToCase():
             self.url = self.handle.get_url()
             self.method = self.handle.get_method().lower() if self.handle.get_method() != None else None
             self.type = self.handle.get_type().lower() if self.handle.get_type() != None else None
-            self.headers = json.loads(self.handle.get_headers())
+            self.headers = self.handle.get_headers()
             self.params = self.handle.get_params()
             self.body = self.handle.get_body()
         else:

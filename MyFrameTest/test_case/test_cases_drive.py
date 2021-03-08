@@ -3,6 +3,7 @@ import os
 import unittest
 
 import HtmlTestRunner
+import requests
 from ddt import ddt, file_data, unpack
 
 from MyFrameTest.public.file_to_case import FileToCase
@@ -19,13 +20,15 @@ class TestCase(unittest.TestCase):
     #     case = FileToCase(file=f'../source/yamls/{yaml_file}',file_type='yaml')
     #     print(case.testName,'</p><p>')
     #     response = case.requests()
-    #     print(json.dumps(response.json(),ensure_ascii=False,indent=2))
+    #     # print(json.dumps(response.json(),ensure_ascii=False,indent=2))
+    #     print(response.text)
     #     pass
 
     @file_data('../source/testCaseName.json')
     @unpack
     def test_01(self, file):
-        case = FileToCase(file=f'../source/excels/接口.xlsx', file_type='excel',case_number=file)
+        print(file)
+        case = FileToCase(file='../source/excels/接口.xlsx', file_type='excel',case_number=file)
         print(case.testName, '</p><p>')
         response = case.requests()
         print(json.dumps(response.json(), ensure_ascii=False, indent=2))
@@ -38,8 +41,6 @@ if __name__ == '__main__':
 
     print(unittest.TestLoader().getTestCaseNames(TestCase))
     suit = unittest.TestSuite()
-    i = 0
     for temp in unittest.TestLoader().getTestCaseNames(TestCase):
-        i += 1
         suit.addTest(TestCase(temp))
     HtmlTestRunner.HTMLTestRunner(output='../reports/', report_title='溜冰的测试报告').run(suit)
