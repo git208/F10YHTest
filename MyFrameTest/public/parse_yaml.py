@@ -42,5 +42,5 @@ class ParseYaml():
 
 
 if __name__ == '__main__':
-    sad = ParseYaml('../source/yamls/stockbulletinlist.yaml').get_body()
+    sad = ParseYaml('../test_case/yamls/stockbulletinlist.yaml').get_body()
     print(sad)

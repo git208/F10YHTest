@@ -5,10 +5,10 @@ import time
 import requests
 class HandleExcel:
 
-    def __init__(self, file, sheet_name=None, case_number=0):
+    def __init__(self, file, sheet_name=None, case_identifier=0):
         self.filepath = file
         self.sheetname = sheet_name
-        self.data = self.get_excel()[case_number-1]
+        self.data = self.get_excel()[case_identifier-1]
 
     def get_excel(self):
         """
@@ -67,7 +67,7 @@ class HandleExcel:
 
 if __name__ == '__main__':
     # pass
-    das = HandleExcel('../source/excels/接口.xlsx',case_number=7)
+    das = HandleExcel('../test_case/excels/接口.xlsx', case_identifier=7)
 
     print(das.get_body())
 

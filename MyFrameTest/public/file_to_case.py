@@ -15,7 +15,7 @@ class FileToCase():
             :param file: 用例所在的路径
             :param file_type: 用例所属文件类型，可以是yaml,excel
             :param sheet_name: 用例所在的sheet页
-            :param case_number: 用例序号
+            :param case_identifier: 用例序号
         """
         if file_type.lower() == 'yaml':
             self.handle = ParseYaml(file)
