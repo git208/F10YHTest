@@ -4,7 +4,7 @@ import unittest
 
 import HtmlTestRunner
 
-from MyFrameTest.test_case.test_cases_form_excel import TestCaseFormYaml,TestCaseFormExcel
+from MyFrameTest.test_case.test_cases_driver import TestCaseFormYaml,TestCaseFormExcel
 
 
 def create_ddt_file():

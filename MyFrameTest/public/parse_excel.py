@@ -3,12 +3,23 @@ import json
 import time
 
 import requests
-class HandleExcel:
+class ParseExcel:
 
-    def __init__(self, file, sheet_name=None, case_identifier=0):
+    def __init__(self,
+                 file,
+                 case_identifier=2,
+                 sheet_name=None,
+                 use_case_id=False
+                 ):
         self.filepath = file
         self.sheetname = sheet_name
-        self.data = self.get_excel()[case_identifier-1]
+        if use_case_id == False:
+            self.data = self.get_excel()[0][case_identifier-2]
+        else:
+            if case_identifier != None:
+                self.data = self.get_excel()[1][case_identifier]
+            else:
+                self.data = {}
 
     def get_excel(self):
         """
@@ -21,11 +32,13 @@ class HandleExcel:
         else:
             ws = wb[self.sheetname]
         head_tuple = tuple(ws.iter_rows(max_row=1, values_only=True))[0]
-        print(head_tuple)
-        one_list = []
+        case_list = []
+        case_dic = {}
         for other_tuple in tuple(ws.iter_rows(min_row=2, values_only=True)):
-            one_list.append(dict(zip(head_tuple, other_tuple)))
-        return one_list
+            case_list.append(dict(zip(head_tuple, other_tuple)))
+        for _ in case_list:
+            case_dic[_['test_case_id']] = _
+        return case_list,case_dic
 
     def data_process(self, key):
         if key in self.data.keys():
@@ -36,8 +49,11 @@ class HandleExcel:
         else:
             return None
 
-    def get_testName(self):
-        return self.data_process('title')
+    def get_test_case_id(self):
+        return self.data_process('test_case_id')
+
+    def get_test_case_name(self):
+        return self.data_process('test_case_name')
 
     def get_url(self):
         return self.data_process('url')
@@ -67,7 +83,7 @@ class HandleExcel:
 
 if __name__ == '__main__':
     # pass
-    das = HandleExcel('../test_case/excels/接口.xlsx', case_identifier=7)
-
-    print(das.get_body())
+    das = ParseExcel('../test_case/excels/接口.xlsx',case_id='GG_004')
+    print(json.dumps([i for i in das.get_excel()[1].keys()],ensure_ascii=False,indent=2))
+    # print(das.get_test_case_id())
 

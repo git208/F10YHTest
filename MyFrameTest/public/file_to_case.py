@@ -2,7 +2,7 @@ import json
 
 import requests
 
-from MyFrameTest.public.handle_excel import HandleExcel
+from MyFrameTest.public.parse_excel import ParseExcel
 from MyFrameTest.public.parse_yaml import ParseYaml
 from MyFrameTest.public.request_common import form_data_format_body,form_data_format_header
 from MyFrameTest.config.logConfig import LogCustom
@@ -14,12 +14,13 @@ class FileToCase():
         """
             :param file: 用例所在的路径
             :param file_type: 用例所属文件类型，可以是yaml,excel
-            :param sheet_name: 用例所在的sheet页
-            :param case_identifier: 用例序号
+            :param case_identifier: 用例格式为excel时的用例标识，为用例ID或用例序号
+            :param sheet_name: 用例格式为excel时用例所在的sheet页
+            :param use_case_id: 用例格式为excel时是否使用用例ID来进行驱动，置为False将使用用例序号进行驱动，默认False
         """
         if file_type.lower() == 'yaml':
             self.handle = ParseYaml(file)
-            self.testName = self.handle.get_testName()
+            self.testCaseName = self.handle.get_testName()
             self.url = self.handle.get_url()
             self.method = self.handle.get_method().lower() if self.handle.get_method() != None else None
             self.type = self.handle.get_type().lower() if self.handle.get_type() != None else None
@@ -27,8 +28,9 @@ class FileToCase():
             self.params = self.handle.get_params()
             self.body = self.handle.get_body()
         elif file_type.lower() == 'excel':
-            self.handle = HandleExcel(file,**kwargs)
-            self.testName = self.handle.get_testName()
+            self.handle = ParseExcel(file,**kwargs)
+            self.testCaseID = self.handle.get_test_case_id()
+            self.testCaseName = self.handle.get_test_case_name()
             self.url = self.handle.get_url()
             self.method = self.handle.get_method().lower() if self.handle.get_method() != None else None
             self.type = self.handle.get_type().lower() if self.handle.get_type() != None else None
